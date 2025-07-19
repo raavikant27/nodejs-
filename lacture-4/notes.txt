@@ -1,0 +1,17 @@
+important points and node js role
+  * what is server side and client side scripting.
+  * where we use node js.
+  * how nodejs use js
+  * what we ecactly do with node js
+  * why we need APIs
+  * interview questions
+
+
+  * what we exaclty do with node.js
+   1- node js is mostly used for API development
+   2- API send send and receive adata betweeen any two language
+   3- after amke API in Nodejs, API can use in front
+     technologies, mobile technologies and anyother platform
+   
+  *why we need API
+   1-

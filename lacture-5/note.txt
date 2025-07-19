@@ -1,0 +1,18 @@
+## ✅ Till Lecture Progress lacture -5
+
+- 📁 Make folder and file
+- 🖊️ Write some basic code
+- ▶️ How to execute code
+- 🗂️ File system (just overview)
+- 💻 REPL Example
+- ❓ Interview Questions
+
+## ✅ Till Lecture Progress lacture
+## ✅ fundamental to use varibles and functions
+- 📁 how to use variables and functions
+- 🖊️ how to use conditions and loops
+- ▶️ How to use array and objects
+- 🗂️ how to import functions and other from other files
+
+- 💻 REPL Example
+- ❓ Interview Questions

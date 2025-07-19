@@ -5,9 +5,12 @@
 // }
 // fruit('ravikant singh rajput');
 
+// for write a the text
+// var fs= require('fs');
+// fs.writeFileSync("day-1.txt","my name is ravikant singh")
+// for  how to import module from nodejs 
 
-var fs= require('fs');
-fs.writeFileSync("day-1.txt","my name is ravikant singh")
 
+var fs=require
 
 
