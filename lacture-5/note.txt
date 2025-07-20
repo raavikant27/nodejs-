@@ -16,3 +16,54 @@
 
 - 💻 REPL Example
 - ❓ Interview Questions
+
+// ✅ Using variables and functions
+const { greet, isEven } = require('./functions');
+
+let name = 'Ravikant';
+greet(name); // 👋 Hello, Ravikant!
+
+// ✅ Using conditions and loops
+for (let i = 1; i <= 5; i++) {
+  if (isEven(i)) {
+    console.log(`${i} is even`);
+  } else {
+    console.log(`${i} is odd`);
+  }
+}
+
+// ✅ Using arrays and objects
+const users = [
+  { name: 'Ravi', age: 23 },
+  { name: 'Mansi', age: 21 },
+  { name: 'Ankit', age: 25 },
+];
+
+// Loop through array of objects
+users.forEach((user) => {
+  console.log(`👤 Name: ${user.name}, Age: ${user.age}`);
+});
+
+
+// Simple function to greet a user
+function greet(name) {
+  console.log(`👋 Hello, ${name}!`);
+}
+
+// Check if number is even
+function isEven(num) {
+  return num % 2 === 0;
+}
+
+// Exporting functions
+module.exports = { greet, isEven };
+
+
+$ node
+> let name = "Ravi";
+> console.log("Hello", name);
+Hello Ravi
+> function square(x) { return x * x }
+undefined
+> square(5)
+25
