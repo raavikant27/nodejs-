@@ -91,3 +91,58 @@ Request	Info about incoming HTTP request
 Response	Used to send response to the client
 res.end()	Ends the response; mandatory to avoid hanging
 Multiple servers	Allowed on different ports only
+
+
+🧠 Bonus: Sample README.md (Interactive Style for GitHub)
+md
+Copy code
+# Node.js Server Basics
+
+This repo demonstrates how to create a basic HTTP server using Node.js.
+
+---
+
+## 📌 Why do we need a server?
+
+A **server** listens to requests coming from the browser (client) and sends back responses. This is the base of **backend development**.
+
+---
+
+## 🧑‍💻 How to create a server in Node.js?
+
+We use the **core Node.js module `http`**.
+
+### Example:
+```js
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.write("Hello from server!");
+  res.end(); // ending the response
+});
+
+server.listen(5000, () => {
+  console.log("Server is running on http://localhost:5000");
+});
+📥 What is request and response?
+req (Request): Contains details about what the client wants (URL, method, headers, etc.)
+
+res (Response): Used to send data back to the client (HTML, JSON, text, etc.)
+
+You must use res.end() to properly finish the response. Without it, the browser keeps waiting.
+
+❓Interview Questions
+How do you create a server in Node.js?
+→ Using the http module’s createServer() method.
+
+Which core module is used?
+→ http
+
+What do req and res do?
+→ req holds request data from client; res is used to send back response.
+
+How do you end a request?
+→ Using res.end().
+
+Can we run two servers at the same time?
+→ Yes, but they must use different ports. 
