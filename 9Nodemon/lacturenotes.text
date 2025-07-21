@@ -1,0 +1,42 @@
+## 🔄 Nodemon – Auto Restart Node.js Server
+
+### ❓ Why We Need `nodemon`?
+Every time you change a file in a Node.js project, you need to manually stop and restart the server.  
+🔁 `nodemon` automatically restarts your server when file changes are detected — saves time during development!
+
+---
+
+### ⚙️ How to Install Nodemon?
+
+```bash
+npm install -g nodemon
+Or as a dev dependency:
+
+bash
+Copy code
+npm install --save-dev nodemon
+🚀 How to Use Nodemon?
+Instead of:
+
+bash
+Copy code
+node app.js
+Use:
+
+bash
+Copy code
+nodemon app.js
+✨ Now your server will auto-restart on any file change!
+
+📌 Bonus Tip (package.json script):
+json
+Copy code
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+}
+Now run with:
+
+bash
+Copy code
+npm run dev
