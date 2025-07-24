@@ -1,0 +1,4 @@
+why need to load html file
+create server
+make html file 
+laod html file with fs module
